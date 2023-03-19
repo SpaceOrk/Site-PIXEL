@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;700&family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kodchasan', sans-serif;
+}
+body{
+    background: #161A20;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(20, 32, 37, 0.7);
+}
+header .logo{
+    text-transform: uppercase;
+    letter-spacing: .5em;
+}
+header .logo h1{
+    color: #12D7D7;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
