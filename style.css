@@ -45,6 +45,9 @@ header .logo h1{
     font-size: 18px;
     line-height: 2;
 }
+.navigation a:hover{
+    opacity: .6;
+}
 .navigation a:first-child{
     color: #12D7D7;
 }
@@ -54,6 +57,7 @@ header .logo h1{
 .login_and_search a{
     margin-left: 50px;
 }
+
 .login_and_search img{
     width: 34px;
     height: 34px;
@@ -67,7 +71,7 @@ main{
     margin: auto;
     width: 1300px;
     background: #142025;
-    height: 1000px;
+    height: 1800px;
     border-left: 18px solid #12D7D7;
     border-right: 18px solid #12D7D7;
     border-bottom: 18px solid #12D7D7;
@@ -97,4 +101,21 @@ main{
     height: 310px;
     border: 7px solid #12D7D7;
     border-radius: 5px 5px 5px 5px;
+    
+    overflow: hidden;
+}
+.card img{
+    width: 247px;
+    height: 310px;
+}
+.card img:hover{
+    transition: .6s ease;
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.second-container{
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 90px;
 }
