@@ -38,9 +38,11 @@ header .logo h1{
 .navigation{
     display: flex;
     justify-content: space-between;
+    margin-left: 20px;
 }
 .navigation a{
     margin-right: 90px;
+    margin-left: 40px;
     color: white;
     letter-spacing: .4em;
     text-transform: uppercase;
@@ -49,7 +51,7 @@ header .logo h1{
     text-shadow: 0 0 3px #ffffff;
 }
 .navigation a:hover{
-    opacity: .6;
+    opacity: .8;
 }
 .login_and_search{
     display: flex;
