@@ -58,3 +58,18 @@ header .logo h1{
     width: 34px;
     height: 34px;
 }
+
+main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.main_content{
+    margin: auto;
+    width: 1300px;
+    background: #142025;
+    height: 960px;
+    border-left: 18px solid #12D7D7;
+    border-right: 18px solid #12D7D7;
+    border-bottom: 18px solid #12D7D7;
+    border-radius: 17px 17px 40px 40px;
+}
