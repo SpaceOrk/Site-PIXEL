@@ -28,6 +28,7 @@ header .logo{
     font-family: 'Kodchasan';
     font-style: normal;
     font-weight: 400;
+    margin-right: 50px;
 }
 header .logo h1{
     color: #12D7D7;
@@ -43,8 +44,17 @@ header .logo h1{
     text-transform: uppercase;
     font-size: 18px;
     line-height: 2;
-    
 }
 .navigation a:first-child{
     color: #12D7D7;
+}
+.login_and_search{
+    display: flex;
+}
+.login_and_search a{
+    margin-left: 50px;
+}
+.login_and_search img{
+    width: 34px;
+    height: 34px;
 }
