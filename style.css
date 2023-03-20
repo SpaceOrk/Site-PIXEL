@@ -51,10 +51,6 @@ header .logo h1{
 .navigation a:hover{
     opacity: .6;
 }
-.navigation a:first-child{
-    color: #12D7D7;
-    text-shadow: 0 0 3px #12D7D7;
-}
 .login_and_search{
     display: flex;
 }
@@ -63,10 +59,19 @@ header .logo h1{
 }
 
 .login_and_search img{
-    width: 34px;
+    width: 32px;
     height: 34px;
+    padding-top: 4px;
 }
-
+.login_and_search a:last-child{
+    background: #171B20;
+    border-radius: 50%;
+    display: block;
+    height: 46px;
+    width: 46px;
+    box-shadow: 0 0 5px #12D7D7;
+    border: 1px solid #12D7D7;
+}
 main{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -125,10 +130,18 @@ main{
 }
 
 
-
 .footer{
     margin-top: 20px;
     padding: 0 24px 8px 24px;
     display: flex;
     align-items: center;
+}
+
+.film_index:first-child{
+    color: #12D7D7;
+    text-shadow: 0 0 3px #12D7D7;
+}
+.anime_index:nth-child(3) {
+    color: #12D7D7;
+    text-shadow: 0 0 3px #12D7D7;
 }
