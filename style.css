@@ -67,9 +67,34 @@ main{
     margin: auto;
     width: 1300px;
     background: #142025;
-    height: 960px;
+    height: 1000px;
     border-left: 18px solid #12D7D7;
     border-right: 18px solid #12D7D7;
     border-bottom: 18px solid #12D7D7;
     border-radius: 17px 17px 40px 40px;
+    color: white;
+}
+.main_content h2{
+    font-size: 28px;
+    margin-left: 5px;
+    letter-spacing: .1em;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+.first-container{
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.cards{
+    margin-top: 30px;
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 247px;
+    height: 310px;
+    border: 7px solid #12D7D7;
+    border-radius: 5px 5px 5px 5px;
 }
