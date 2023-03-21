@@ -110,7 +110,7 @@ main{
 .card{
     width: 247px;
     height: 310px;
-    border: 7px solid #12D7D7;
+    border: 6px solid #12D7D7;
     border-radius: 5px 5px 5px 5px;
     
     overflow: hidden;
@@ -148,6 +148,10 @@ main{
     text-shadow: 0 0 3px #12D7D7;
 }
 .TV_series:nth-child(2){
+    color: #12D7D7;
+    text-shadow: 0 0 3px #12D7D7;
+}
+.cartoon:nth-child(4){
     color: #12D7D7;
     text-shadow: 0 0 3px #12D7D7;
 }
