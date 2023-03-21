@@ -147,3 +147,14 @@ main{
     color: #12D7D7;
     text-shadow: 0 0 3px #12D7D7;
 }
+.TV_series:nth-child(2){
+    color: #12D7D7;
+    text-shadow: 0 0 3px #12D7D7;
+}
+
+.third-container{
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 90px;
+}
