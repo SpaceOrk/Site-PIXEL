@@ -143,6 +143,10 @@ main{
     display: flex;
     align-items: center;
 }
+.footer img{
+    margin-left: 10px;
+    bottom: 0;
+}
 
 .film_index:first-child{
     color: #12D7D7;
