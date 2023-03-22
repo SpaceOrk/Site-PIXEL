@@ -51,7 +51,9 @@ header .logo h1{
     text-shadow: 0 0 3px #ffffff;
 }
 .navigation a:hover{
-    opacity: .8;
+    transition: .5s;
+    color: #12D7D7;
+    text-shadow: 0 0 5px #12D7D7;
 }
 .login_and_search{
     display: flex;
@@ -161,4 +163,19 @@ main{
     padding-left: 60px;
     padding-right: 60px;
     margin-top: 90px;
+}
+
+.main_content_login{
+    margin: auto;
+    width: 1300px;
+    background: #142025;
+    height: 700px;
+    border-left: 18px solid #12D7D7;
+    border-right: 18px solid #12D7D7;
+    border-bottom: 18px solid #12D7D7;
+    border-radius: 17px 17px 40px 40px;
+    color: white;
+}
+.active a{
+    box-shadow: 0 0 50px #12D7D7;
 }
